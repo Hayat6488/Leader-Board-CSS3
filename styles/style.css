@@ -1,16 +1,26 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@500&display=swap');
+/* common styles */
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 /* top players style */
 
-.players{
+.players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.player img{
+.player img {
     width: 56px;
     height: 56px;
 }
 
-.player{
+.player {
     display: flex;
     align-items: center;
 }
