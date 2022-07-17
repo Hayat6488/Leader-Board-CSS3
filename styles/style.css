@@ -119,7 +119,7 @@ top blog styles
     color: #1E1E1E;
 }
 
-.course-instructor{
+.course-instructor {
     color: #ED6B4F;
     font-size: 17px;
 }
@@ -144,4 +144,23 @@ top blog styles
     text-align: center;
     color: #FF4A60;
     padding-top: 5px;
+}
+
+/* media queries */
+
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 100%;
+    }
+
+    .players, .blogs{
+        grid-template-columns: repeat(1, fr);
+    }
+
+    .player, .blog {
+        flex-direction: column;
+    }
+
 }
